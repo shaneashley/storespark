@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(193, 192, 192, 0.41);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: auto;
+    color: #000;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+nav > ul > li > a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+nav > h2 {
+    font-size: 2.5rem!important;
+}
+
+nav  a:hover {
+    color: rgb(149, 147, 147);
+}
+
+.mar-top {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hero > section {
+    width: 40%;
+    padding: 5%;
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.left-cont p {
+margin: 5% 0 5% 0;
+}
+
+.right-cont > img {
+    margin-top: -10%;
+    /* height: 500px; */
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+button {
+    width:fit-content !important;
+   padding: 15px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin:5px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000; 
+}
+button a:hover {
+    color: #000; 
+    background-color: #fff;
+}
+
+p {
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.services, .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+  
+
+}
+
+ .card-section > h2 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.services > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container > section {
+    width: 40%;
+    padding: 4%;
+}
+
+.container > section > ul {
+    width: 40%;
+    padding: 2% 4%;
+}
+
+.services-text {
+    align-items: center;
+    margin: 6%;
+}
+
+.services-img {
+    margin-left: 5px;
+}
+
+.right-container > img {
+    width: 500px;
+}
+
+.card-section > p {
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards > section {
+    width: 400px;
+   border: 2px solid #000;
+    margin: 10px;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.cards > section > img {
+    width: 300px;
+    margin: 5px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin: 5%;
+}
+
+.benefits > h2 {
+    margin: 25px;
+}
+.benefit-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.benefit-details > section {
+    /* border: 2px solid #000; */
+    margin: 2px;
+    height: 300px;
+    width: 300px;
+    padding-top: 50px;
+   text-align: center;
+ }
+
+.benefit-details > section > h4 {
+    font-size: 20px!important;
+    margin: 5px;
+}
+
+.benefit-details > section > img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.project-ideas {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.project-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.pricing-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 600px;
+    width: 400px;
+    padding: 5% 3%;
+}
+
+
+.pricing-cards > section > h4 {
+    margin-top: 10%;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+width: 100%;
+    margin: auto;
+}
